@@ -1,5 +1,5 @@
 # LiRE
-LiRE (List Regression Error-correction) is an algorithm designed to efficiently correct errors made by any given baseline compressed-sensing support recovery algorithm.  LiRE  takes  as  input  an estimatesin of the true supports of an m-sparse d-dimensional signal x observed through n linear measurements, and outputs are fined support estimate s_{out} of size m.
+LiRE (List Regression Error-correction) is an algorithm designed to efficiently correct errors made by any given baseline compressed-sensing support recovery algorithm.  LiRE  takes  as  input  an estimate s_{in} of the true supports of an m-sparse d-dimensional signal x observed through n linear measurements, and outputs a refined support estimate s_{out} of size m.
 
 # Usage
 Implementation of LiRE algorithm is in LiRE_main.R with the following input/output arguments:
