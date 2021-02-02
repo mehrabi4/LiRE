@@ -4,10 +4,10 @@ LiRE (List Regression Error-correction) is an algorithm designed to efficiently 
 Please refer to LiRE_example.R for basic usage. Implementation of LiRE algorithm is in LiRE_main.R.
 # Input arguments:
      Phi       :  A design matrix consisting of n d-dimensional samples.
-     y         :  Response vector
+     y         :  Response vector ( an n-dimensional vector)
      ell       :  List size ( suggested default value is 0.5*m)
-     S_start   :  Initial estimation for the support ( m-dimensional vector with entries from {1,2,...,d})
-     rounds    :  Number of rounds to run LiRE ( default value is one round)
+     S_start   :  Initial estimation for the support ( an m-dimensional vector with entries from 1:d)
+     rounds    :  Number of rounds to run LiRE ( suggested default value is one round)
 
   
  # Returns:
